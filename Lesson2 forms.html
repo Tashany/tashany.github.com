@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<!-- формы -->
+
+<form action="#">
+    Имя<input type="text" name="firstname"/>
+    <br/>
+    Фамилия<input type="text" name="lastname"/>
+<br/>
+    Пароль<input type="password" name="pwd"/>
+    <br/>
+    <input type="radio" name="sex" value="male"/>Мужской
+    <input type="radio" name="sex" value="female"/>Женский
+    <br/>
+    <input type="checkbox" name="vehicle" value="bike"/>у меня есть мотоцикл<br/>
+    <input type="checkbox" name="vehicle" value="car"/>у меня есть автомобиль<br/>
+    <input type="submit" value="Отдать"/>
+    <input type="reset" value="Очистить"/><br/>
+    <input type="search"><br/>
+    <input type="email"><br/>
+    <input type="url"><br/>
+    <input type="tel"><br/>
+    <input type="number"><br/>
+    <input type="range"><br/>
+    <input type="time"><br/>
+    <input type="date"><br/>
+    <input type="datetime-local"><br/>
+    <input type="week"><br/>
+    <input type="month"><br/>
+    <input type="color"><br/>
+<textarea rows="5" cols="45" name="my text">
+    здесь располагается
+    большой текст</textarea><br/>
+    <select name="food">
+        <option value="pie">пирог</option>
+        <option value="bread" selected="selected">Хлеб</option>
+        <option value="cookie">печенье</option>
+    </select>
+    <select name="food" size="3" multiple="multiple">
+        <option value="pie">пирог</option>
+        <option value="bread" selected="selected">Хлеб</option>
+        <option value="cookie">печенье</option>
+    </select>
+    <select>
+        <optgroup label="Шведские автомобили">
+            <option value="volvo">Вольво</option>
+            <option value="saab">Сааб</option>
+            <option value="san">Сан</option>
+        </optgroup>
+        <optgroup label="Немецкие автомобили">
+            <option value="vw">Фольксваген</option>
+            <option value="audi">Ауди</option>
+            <option value="Mercedes">Мерседес-Бенц</option>
+            <option value="BMW">БМВ</option>
+        </optgroup>
+    </select>
+
+
+</form>
+</body>
+</html>
